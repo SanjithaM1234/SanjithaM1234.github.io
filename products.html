@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    const USER_ID = "demo_user";
+const CART_API = "http://localhost:5000/api/cart";
+
+<head>
+
+    <title>PixelPop - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PixelPop</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                 <li><a href="cart.html" class="active">Cart (<span id="cart-badge">0</span>)</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Festival Collections</h1>
+        <div class="products-grid" id="product-container">
+            <p>Loading products...</p>
+        </div>
+    </main>
+
+    
+    <script src="script.js"></script>
+
+
+
+    
+    <footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- Brand Section -->
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <span class="logo-badge">P</span>
+                <span class="logo-text">PixelPop</span>
+            </div>
+            <p>
+                Empowering creators with high-quality digital assets.
+                We help you stand out in the crowded digital landscape.
+            </p>
+
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/" aria-label="Instagram">
+                    <i data-lucide="instagram"></i>
+                </a>
+                <a href="https://www.twitter.com/" aria-label="Twitter">
+                    <i data-lucide="twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/" aria-label="Facebook">
+                    <i data-lucide="facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Shop Links -->
+        <div class="footer-links">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="products.html">New Arrivals</a></li>
+                <li><a href="products.html">Best Sellers</a></li>
+                <li><a href="roducts.html">Templates</a></li>
+                <li><a href="roducts.html">Bundles</a></li>
+            </ul>
+        </div>
+
+        <!-- Support Links -->
+        <div class="footer-links">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">License Keys</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2023 PixelPop Portfolio. All rights reserved.
+    </div>
+</footer>
+<script>
+    lucide.createIcons();
+</script>
+<script src="script.js"></script>
+</body>
+</html>
